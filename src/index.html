@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>My Website</title>
+    <link rel="stylesheet" href="/src/style.css">
+  </head>
+  <body>
+    <main>
+        <h1>Welcome to My Website</h1>
+    </main>
+      <div class="container">
+        <div class="center-block">
+          <form action="register.php" method="post">
+            <h2>Регистрация</h2>
+            <div>
+              <input type="text" placeholder="Введите имя пользователя" name="login">
+            <p>
+            <div>
+              <input type="text" placeholder="Введите пароль" name="pass">
+            </div>
+              <input type="text" placeholder="Повторите пароль" name="repeatpass">
+          <p>
+            <input type="text" placeholder="Введите почту" name="email">
+          <p>
+            <button type="submit">Зарегистрироваться</button>
+          </div>
+          </form>
+            <br>
+          <form action="login.php" method="post">
+            <h2>Войти</h2>
+          <div>
+            <input type="text" placeholder="login" name="login">
+          </div>
+            <input type="text" placeholder="password" name="pass">
+          <p>
+            <button type="submit">Войти</button>
+          </p>
+          </form>
+          <br>
+            <form action="">
+    <h2>Ваши задачи</h2>
+            <input type="text" placeholder="Введите задачу" name="Task">
+          <p>
+            <button>Создать задачу</button>
+          </p>
+            </form>
+      </div>
+    </div>
+    <H2>Список задач</H2>
+    <ul>
+      <li>Один</li>
+      <li>Два</li>
+      <li>Три</li>
+    </ul>
+  </body>
+</html>
